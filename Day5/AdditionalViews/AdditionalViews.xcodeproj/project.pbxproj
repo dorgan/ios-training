@@ -12,6 +12,8 @@
 		51DAF0821D4B905B00D8A0DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51DAF0801D4B905B00D8A0DB /* Main.storyboard */; };
 		51DAF0841D4B905B00D8A0DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51DAF0831D4B905B00D8A0DB /* Assets.xcassets */; };
 		51DAF0871D4B905B00D8A0DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51DAF0851D4B905B00D8A0DB /* LaunchScreen.storyboard */; };
+		51DAF08F1D4B94DC00D8A0DB /* captain_america.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 51DAF08E1D4B94DC00D8A0DB /* captain_america.jpg */; };
+		51DAF0911D4B991900D8A0DB /* PropertiesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51DAF0901D4B991900D8A0DB /* PropertiesController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		51DAF0831D4B905B00D8A0DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		51DAF0861D4B905B00D8A0DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		51DAF0881D4B905B00D8A0DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		51DAF08E1D4B94DC00D8A0DB /* captain_america.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = captain_america.jpg; path = ../../../../captain_america.jpg; sourceTree = "<group>"; };
+		51DAF0901D4B991900D8A0DB /* PropertiesController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PropertiesController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +60,9 @@
 			children = (
 				51DAF07C1D4B905B00D8A0DB /* AppDelegate.swift */,
 				51DAF07E1D4B905B00D8A0DB /* ViewController.swift */,
+				51DAF0901D4B991900D8A0DB /* PropertiesController.swift */,
 				51DAF0801D4B905B00D8A0DB /* Main.storyboard */,
+				51DAF08E1D4B94DC00D8A0DB /* captain_america.jpg */,
 				51DAF0831D4B905B00D8A0DB /* Assets.xcassets */,
 				51DAF0851D4B905B00D8A0DB /* LaunchScreen.storyboard */,
 				51DAF0881D4B905B00D8A0DB /* Info.plist */,
@@ -125,6 +131,7 @@
 				51DAF0871D4B905B00D8A0DB /* LaunchScreen.storyboard in Resources */,
 				51DAF0841D4B905B00D8A0DB /* Assets.xcassets in Resources */,
 				51DAF0821D4B905B00D8A0DB /* Main.storyboard in Resources */,
+				51DAF08F1D4B94DC00D8A0DB /* captain_america.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,6 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				51DAF07F1D4B905B00D8A0DB /* ViewController.swift in Sources */,
+				51DAF0911D4B991900D8A0DB /* PropertiesController.swift in Sources */,
 				51DAF07D1D4B905B00D8A0DB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

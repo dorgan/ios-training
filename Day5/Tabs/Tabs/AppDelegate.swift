@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  AdditionalViews
+//  Tabs
 //
 //  Created by Organ, Donald on 7/29/16.
 //  Copyright © 2016 Disney. All rights reserved.
@@ -12,9 +12,9 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-    var opacity: CGFloat = CGFloat(1)
-    var bgColor: String = "Blue"
 
+    let myAppSetting = "Setting"
+    var fontSize: Float = 12.0
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
