@@ -8,7 +8,7 @@
 
 import UIKit
 
-class PropertiesController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource {
+class PropertiesController: UIViewController {
     let delegate = UIApplication.sharedApplication().delegate as! AppDelegate
     
     var colors:[String] = ["White", "Blue", "Green", "Yellow", "Red"]
@@ -40,6 +40,9 @@ class PropertiesController: UIViewController, UIPickerViewDelegate, UIPickerView
         // Dispose of any resources that can be recreated.
     }
     
+}
+
+extension PropertiesController: UIPickerViewDelegate {
     func numberOfComponentsInPickerView(pickerView: UIPickerView) -> Int {
         return 1
     }
@@ -55,6 +58,8 @@ class PropertiesController: UIViewController, UIPickerViewDelegate, UIPickerView
     func pickerView(pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
         delegate.bgColor = colors[row]
     }
+}
 
+extension PropertiesController: UIPickerViewDataSource {
     
 }
